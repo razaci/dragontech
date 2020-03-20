@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style type="text/css">
+.collapseblock {display:none}
+.expandblock {display:inline}
+</style>
+<script type="text/Javascript"> function toggleblocks (postid) {
+var whichpost = document.getElementById(postid);
+if (whichpost.className=="expandblock") {
+whichpost.className="collapseblock";
+}
+else {
+whichpost.className="expandblock";
+}
+}
+</script>
+
+<title>BLOCK TITLE</title>
+</head>
+
+<body>
+
+ <h4 style="background-color:#ccc;padding: 3px 6px;border: 1px outset #333;text-align:center;">
+<a href="javascript:poptoggle('block01');" title="show/hide poll">collapseblock example [+/-]</a>
+</h4>
+<div id="block01" class="collapseblock">
+Text you want to show/hide, expand/collapse
+</div>
+
+<h4> <a href="javascript:poptoggle('block1');">BLOCK TITLE [+/-]</a> </h4>
+   <div id=" block1" class="collapseblock">
+   <!-- start sub category expand/collapse -->
+   <a href="javascript:poptoggle('block02');">BLOCK TITLE[+/-]</a>
+       <div id="block02" class="collapseblock">
+        <script scr=""></script>
+       </div>
+   <!-- end sub category expand/collapse -->
+  </div>
+
+</body>
+
+</html>
