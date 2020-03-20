@@ -18,6 +18,7 @@ a:hover { text-decoration:none;}
 #main { width:100%; margin:20px 0 20px 0; float:left;}
 #main_head_image { height:150px; background:#FFFFFF url('myimages/main_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
 #product_head_image { height:150px; background:#FFFFFF url('myimages/product_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
+#dragontech_s01_head_image { height:150px; background:#FFFFFF url('myimages/dragontech_s01_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
 #download_head_image { height:150px; background:#FFFFFF url('myimages/download_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
 #support_head_image { height:150px; background:#FFFFFF url('myimages/support_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
 #contact_head_image { height:150px; background:#FFFFFF url('myimages/contact_head_bckg.jpg') no-repeat; line-height:24px; padding-left:50px; padding-right:0; padding-top:30px; padding-bottom:30px}
